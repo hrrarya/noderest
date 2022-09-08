@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1a992cfba3aff7b34889e48519cba1ed",
+    "packages": [
+        {
+            "name": "nowakowskir/php-jwt",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nowakowskir/php-jwt.git",
+                "reference": "0868e97abb8d508f23dbbc720781e3cc0f1d2180"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nowakowskir/php-jwt/zipball/0868e97abb8d508f23dbbc720781e3cc0f1d2180",
+                "reference": "0868e97abb8d508f23dbbc720781e3cc0f1d2180",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5|^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Nowakowskir\\JWT\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Radosław Nowakowski",
+                    "email": "nowakowski.r@gmail.com"
+                }
+            ],
+            "description": "JSON Web Token implementation for PHP.",
+            "homepage": "https://github.com/nowakowskir/php-jwt",
+            "keywords": [
+                "json",
+                "jwt",
+                "token"
+            ],
+            "support": {
+                "issues": "https://github.com/nowakowskir/php-jwt/issues",
+                "source": "https://github.com/nowakowskir/php-jwt/tree/2.0.1"
+            },
+            "time": "2020-12-24T23:12:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

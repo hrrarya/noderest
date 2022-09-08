@@ -1,0 +1,1 @@
+# Noderest WordPress REST API with Basic JWT Auth

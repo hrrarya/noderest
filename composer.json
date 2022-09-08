@@ -1,0 +1,18 @@
+{
+    "name": "hridoy/noderest",
+    "description": "Basic API implementation with jwt authorization",
+    "autoload": {
+        "psr-4": {
+            "Hridoy\\Noderest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hridoy Mozumder",
+            "email": "hrrarya6@gmail.com"
+        }
+    ],
+    "require": {
+        "nowakowskir/php-jwt": "^2.0"
+    }
+}
